@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8)rgba(0,0,0,0.6));
+    background-image: url(background.jpg);
+    background-position: center ;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+}
+
+.navbar{
+    
+    padding-left: 40%;
+    padding-top: 55px;
+    
+    
+}
+.navlogo{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+    border: 0;
+}
+
+.navlogo{
+    cursor: pointer;
+    
+}
+img{
+    height: 130px;
+    
+}
+ul{
+    position: absolute;
+
+}
+
+li{
+    margin: 20px;
+    
+  }
+
+.navbar ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+ 
+    
+}
+
+.navbar ul li a:hover{
+   color: rgb(255, 241, 41);
+}
+.navbar button{
+    background-color: rgb(255, 241, 41);
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 40%;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: right;
+    text-decoration: bold;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    transition: 1s ease; 
+    font-size: 15px;  
+}
+.bannertittle{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+span{
+    color:rgb(255, 241, 41);
+}
+
+
+.socialicons{
+    color: rgb(255, 241, 41);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    margin-left: 100%;
+    margin-top: 18%;
+    margin-right: 3px;
+}
+.socialicons .fa{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fa{
+    padding: 20px;
+    margin: 2px;
+}
+
+.fa-facebook{
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.fa-youtube-play{
+    padding: 19px;
+}
+
+.fa-instagram{
+    padding: 20px;
+}
+
+.fa:hover{
+    background-color: rgb(255, 241, 41);
+    color: black;
+    border: 1px solid black;
+}
+
+.location{
+    color: black;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+.fa-map-marker{
+    border: 13px solid rgb(255, 241, 41);
+    border-radius: 100%;
+    padding: 20px;
+    background-color: rgb(255, 241, 41);
+}
+.fa-map-marker:hover{
+    color: black;
+    border: 13px solid rgb(255, 241, 41);
+    padding: 20px;
+    cursor: pointer; 
+    background-color:  rgb(255, 241, 41,);
+    
+}
+
+
+
+
+
